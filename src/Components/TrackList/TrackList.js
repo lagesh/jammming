@@ -1,7 +1,8 @@
 import React from 'react';
 // import Track from ;
+import './TrackList.css';
 
-class TrackList extends React.Component {
+export class TrackList extends React.Component {
   render() {
     return (
       <div className="TrackList">
@@ -10,5 +11,3 @@ class TrackList extends React.Component {
     );
   }
 }
-
-export default TrackList;
